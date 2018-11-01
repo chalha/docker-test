@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build --no-cache -t httpdrevproxy:v1 -t httprevproxy --rm --force-rm .
+docker build --no-cache -t friendica:v1 -t friendica --rm --force-rm .
