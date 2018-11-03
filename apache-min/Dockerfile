@@ -1,7 +1,7 @@
 FROM httpd:alpine
 
-LABEL description="friendica"
-LABEL NAME="friendica"
+LABEL description="apache-min"
+LABEL NAME="apache-min"
 LABEL VERSION="0.1a"
 
 ENV HTTPD_CONF /usr/local/apache2/conf/
