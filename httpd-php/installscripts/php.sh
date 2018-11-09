@@ -3,7 +3,7 @@ PHP_VERSION="7.2.11"
 PHP_FILE="php-$PHP_VERSION.tar.bz2"
 PHP_URL="http://de2.php.net/get/$PHP_FILE/from/this/mirror"
 
-apk add libxml2-dev
+apk add --virtual .php-build-deps libxml2-dev
 cd /tmp
 wget $PHP_URL -O $PHP_FILE || exit 1
 mkdir -p src

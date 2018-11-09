@@ -13,7 +13,7 @@ addgroup -g 82 -S www-data
 adduser -u 82 -D -S -G www-data www-data
 
 #Wird für nghttp2 benötigt git autoconfauta automake
-apk add --no-cache --virtual .build-deps gcc apr-dev apr-util-dev dpkg-dev dpkg build-base pcre-dev coreutils git autoconf automake libtool pkgconf libressl-dev libev-dev zlib-dev c-ares-dev 
+apk add --no-cache --virtual .apache-build-deps gcc dpkg-dev dpkg build-base pcre-dev coreutils git autoconf automake libtool pkgconf libressl-dev libev-dev zlib-dev c-ares-dev 
 cd /tmp
 git clone https://github.com/nghttp2/nghttp2.git
 cd nghttp2
